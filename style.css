@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(to bottom, red, blue);
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+#rectangle0 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+#rectangle1 {
+    position: absolute;
+    width: 33.25%;
+    left: 0;
+    height: 75vh;
+    bottom: 0;
+    border: 2px solid black;
+    text-align: center;
+
+
+
+
+
+}
+
+#rectangle2 {
+    position: absolute;
+    width: 33.33%;
+    left: 33.33%;
+    height: 85vh;
+    bottom: 0;
+    border: 2px solid black;
+    text-align: center;
+
+
+
+}
+
+#rectangle3 {
+    position: absolute;
+    width: 33.33%;
+    height: 14.5vh;
+    left: 50.1%;
+    transform: translate(-50%);
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+#rectangle4 {
+    position: absolute;
+    width: 33.33%;
+    left: 66.7%;
+    height: 75vh;
+    bottom: 0;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+#rectangle5 {
+    position: absolute;
+    width: 33.33%;
+    height: 24.5vh;
+    left: 16.7%;
+    transform: translate(-50%);
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+#rectangle6 {
+    position: absolute;
+    width: 33.33%;
+    height: 24.5vh;
+    left: 83.5%;
+    transform: translate(-50%);
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+
+#text1 {
+    color: white;
+    left: 50%;
+}
