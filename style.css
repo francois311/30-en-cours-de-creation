@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to bottom, red, blue);
+    background-repeat: no-repeat;
 }
 
 
@@ -120,7 +121,7 @@ h1 {
 
 #text3 {
 
-    font-size: 125px;
+    font-size: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -136,12 +137,22 @@ h1 {
 }
 
 #text5 {
+    position: absolute;
     color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
 
 }
 
 #text6 {
+    position: absolute;
     color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
 
 }
 
