@@ -171,20 +171,3 @@ video {
 
 }
 
-@media (max-width: 500px) {
-
-    body,
-    html {
-        height: 500px;
-        overflow: hidden;
-    }
-
-    #rectangle0 {
-        height: 100%;
-        overflow: auto;
-    }
-
-    .rectangle {
-        height: auto;
-    }
-}
