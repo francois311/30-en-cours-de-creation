@@ -19,27 +19,8 @@ h1 {
 
 }
 
-#rectangle1 {
-    position: absolute;
-    width: 33.25%;
-    left: 0;
-    height: 73.6vh;
-    bottom: 0;
-    border: 1px solid black;
-    text-align: center;
 
-}
 
-#rectangle2 {
-    position: absolute;
-    width: 33.359%;
-    left: 33.33%;
-    height: 83.3vh;
-    bottom: 0;
-    border: 1px solid black;
-    text-align: center;
-
-}
 
 #rectangle3 {
     position: absolute;
@@ -52,17 +33,7 @@ h1 {
 
 }
 
-#rectangle4 {
-    position: absolute;
-    width: 33.33%;
-    left: 66.75%;
-    height: 73.6vh;
-    bottom: 0;
-    border: 1px solid black;
-    text-align: center;
 
-
-}
 
 #rectangle5 {
     position: absolute;
@@ -104,6 +75,18 @@ h1 {
     border: 2px solid black;
     text-align: center;
 
+}
+
+#rectangle9 {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    left: 50%;
+    transform: translate(-50%);
+    border: 10px;
+    bottom: 4vw;
+
+    text-align: center;
 }
 
 
@@ -182,3 +165,52 @@ video {
 
 }
 
+.anime-non1 {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 33.25%;
+    left: 0;
+    height: 73.6vh;
+    bottom: 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.anime-non2 {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 33.359%;
+    left: 33.33%;
+    height: 83.3vh;
+    bottom: 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.anime-non3 {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 33.33%;
+    left: 66.75%;
+    height: 73.6vh;
+    bottom: 0;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.anime-non1:hover {
+    transform: scale(0.9);
+}
+
+.anime-non2:hover {
+    transform: scale(0.9);
+}
+
+.anime-non3:hover {
+    transform: scale(0.9);
+
+}
